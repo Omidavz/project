@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="appbar_signup">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_information">User Information</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="identity_number">Identity Number</string>
+    <string name="enter_all_data">Please Enter All Data</string>
+
+</resources>
