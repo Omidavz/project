@@ -37,10 +37,6 @@ import com.omidavz.project.util.Constants.SMALL_DP
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import java.text.SimpleDateFormat
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
-import java.util.Date
 
 @Composable
 fun SecondContent(

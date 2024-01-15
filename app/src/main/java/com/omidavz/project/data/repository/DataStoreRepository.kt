@@ -22,7 +22,7 @@ class DataStoreRepository (context: Context){
     companion object {
         val nameKey = stringPreferencesKey(name = "name")
         val lastNameKey = stringPreferencesKey(name = "lastName")
-        val dateOfBirthKey = intPreferencesKey(name = "dateOfBirth")
+        val dateOfBirthKey = stringPreferencesKey(name = "dateOfBirth")
         val identityNumberKey = longPreferencesKey(name = "identityNumber")
         val isUserLogin = booleanPreferencesKey("isUserLogin")
     }
@@ -46,7 +46,7 @@ class DataStoreRepository (context: Context){
             UserModel(
                 name = preference[nameKey] ?: "",
                 lastName = preference[lastNameKey] ?: "",
-                dateOfBirth = preference[dateOfBirthKey] ?: 0,
+                dateOfBirth = preference[dateOfBirthKey] ?: "",
                 identityNumber = preference[identityNumberKey] ?: 0
             )
         }
