@@ -9,5 +9,7 @@
     <string name="date_of_birth">Date Of Birth</string>
     <string name="identity_number">Identity Number</string>
     <string name="enter_all_data">Please Enter All Data</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
